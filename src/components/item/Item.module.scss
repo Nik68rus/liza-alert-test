@@ -10,8 +10,8 @@
   cursor: pointer;
 
   &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 6px -7px rgba(0, 0, 0, 0.1), 0 4px 30px -9px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
   }
 
   h2 {

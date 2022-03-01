@@ -4,16 +4,12 @@
   bottom: 0;
   width: 100vw;
   min-height: 30px;
-  background-color: green;
+  background-color: var(--color-secondary);
   color: white;
   transform: translateY(100%);
   transition: all 0.3s ease-in;
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.notification.error {
-  background-color: red;
 }
 
 .notification.active {
@@ -33,5 +29,4 @@
   cursor: pointer;
   outline: none;
   padding: 0;
-
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import ArticleDetails from '../components/article-details/ArticleDetails';
-import { Loader } from '../components/loader/loader';
+import { Loader } from '../components/loader/Loader';
 import NotFound from './NotFound';
 
 const Details = () => {

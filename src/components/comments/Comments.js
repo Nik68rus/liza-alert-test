@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Comment from '../comment/Comment';
+import {PropTypes} from 'prop-types';
 import styles from './Comments.module.scss';
 
 const Comments = ({list}) => {
@@ -14,5 +15,9 @@ const Comments = ({list}) => {
     </>
   );
 }
+
+Comments.propTypes = {
+  list: PropTypes.arrayOf(PropTypes.number).isRequired,
+};
 
 export default Comments;

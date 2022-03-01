@@ -1,5 +1,5 @@
-import style from './loader.module.scss';
-import { LoaderSvg } from './loader.svg';
+import style from './Loader.module.scss';
+import { LoaderSvg } from './Loader.svg';
 
 const loaderSizes = {
   small: 16,

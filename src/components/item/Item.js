@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { articlePropTypes } from '../../utils/prop-types';
 import { getDateString } from '../../utils/utils';
 import styles from './Item.module.scss';
 
@@ -17,6 +18,10 @@ const Item = ({item}) => {
       </div>
     </Link>
   );
+}
+
+Item.propTypes = {
+  item: articlePropTypes.isRequired,
 }
 
 export default Item;

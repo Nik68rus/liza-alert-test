@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Notification.module.scss';
 import ReactDOM from 'react-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { setMessage } from '../../services/actions';
+import { setMessage } from '../../services/actions/app';
 
 const notificationRoot = document.getElementById("react-notification");
 

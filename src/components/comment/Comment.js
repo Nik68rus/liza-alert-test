@@ -2,6 +2,7 @@ import React, {useState, useEffect, useRef} from 'react';
 import hackerNewsApi from '../../services/hnApi';
 import { getDateString } from '../../utils/utils';
 import styles from './Comment.module.scss';
+import {PropTypes} from 'prop-types';
 
 const Comment = ({id, onAmountChange}) => {
   const [data, setData] = useState({});
@@ -38,6 +39,11 @@ const Comment = ({id, onAmountChange}) => {
       }
     </div>
   );
+}
+
+Comment.propTypes = {
+  id: PropTypes.number.isRequired,
+  onAmountChange: PropTypes.func.isRequired,
 }
 
 export default Comment;

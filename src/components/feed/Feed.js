@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getItems } from '../../services/actions/items';
 import { BATCH_SIZE, LIMIT } from '../../utils/data';
 import Item from '../item/Item';
-import { Loader } from '../loader/loader';
+import { Loader } from '../loader/Loader';
 import styles from './Feed.module.scss';
 
 const Feed = () => {
