@@ -1,0 +1,23 @@
+.feed {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+.loadButton {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
