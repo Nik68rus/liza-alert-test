@@ -1,8 +1,6 @@
 import {SET_MESSAGE} from '../actions/app';
 
 const initialState = {
-  error: false,
-  loader: false,
   message: '',
 }
 
